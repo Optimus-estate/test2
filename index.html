@@ -41,8 +41,9 @@ section.sec[style*="margin:14px"]{margin:18px 18px 0!important;padding:0!importa
 .specs{display:grid!important;grid-template-columns:1fr 1fr;font-size:14px!important;gap:9px 12px!important;padding:4px 4px 6px!important}
 .plans{height:auto!important;grid-template-rows:auto!important}
 .plans>div>div:last-child{height:220px;flex:none!important}
-.gal{grid-template-columns:1fr 1fr!important;grid-auto-rows:130px;height:auto!important}
-.gal>div:first-child{grid-column:1/-1;height:190px}
+.gal{grid-template-columns:1fr 1fr!important;grid-auto-rows:auto!important;height:auto!important}
+.gal>div{aspect-ratio:4/3}
+.gal>div:first-child{grid-column:1/-1;aspect-ratio:16/10}
 .foot{flex-direction:column!important;align-items:flex-start!important;padding:20px 18px!important}
 .foot>div:last-child{flex-wrap:wrap}
 .foot a[href^="http"],.foot a[href^="viber"]{font-size:14px!important;padding:11px 16px!important}
